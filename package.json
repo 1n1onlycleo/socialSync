@@ -1,0 +1,21 @@
+{
+  "name": "socialsync",
+  "version": "1.0.0",
+  "description": "POC for generating and publishing daily Instagram thought-of-the-day posts.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "run:once": "node src/run-once.js",
+    "check": "node src/check-config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.1",
+    "node-cron": "^4.2.1",
+    "sharp": "^0.34.5"
+  }
+}
